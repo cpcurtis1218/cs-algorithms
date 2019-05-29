@@ -49,3 +49,23 @@ Merge Sort and Quick Sort
 
     After this, the pivot is sorted.  Now, recursive call quicksort on either side
       of the pivot until the entire array is sorted.
+
+  It's convention to pick either the first or last value in an array as the
+    initial pivot element.
+
+  We continue partitioning and choosing new pivots as we work through the array
+  until we are down to single elements.
+
+-Quick Sort vs Merge Sort-
+
+      Quick Sort	                              Merge Sort
+Better in a virtual memory                Useful in database scenarios.
+environment.                              Useful when additional data may
+Built-in sort function in C               arrive during or after sorting.
+programming languages, Java, and          Used by Safari and Firefox in their
+Python.                                   implementation of JavaScript’s sort function.
+Works better for caching environments.
+
+-In an interview-
+  May be asked to compare and contrast merge and quick sorts.
+  May be asked to describe a scenario where you'd pick one over the other.

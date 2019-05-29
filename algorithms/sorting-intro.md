@@ -40,3 +40,13 @@ Sorting Intro
   Stability: Whether or not the items stay in order
   Sorting method: Comparison, Distribution, or a combination
   The size and structure of the data: Is it already sorted, unsorted, very large, etc.)
+
+-Cheat Sheet-
+
+Sort	         Best Case	Average Case	Worst Case	Space	  Stability	Sorting Method
+Bubble sort	   Ω(N)	      Θ(N^2)	      O(N^2)	    O(1)	  Stable	  Comparison
+Insertion sort Ω(N)	      Θ(N^2)	      O(N^2)	    O(1)	  Stable	  Comparison
+Bucket sort	   Ω(N+K)	    Θ(N+K)	      O(N^2)	    O(N+K)	Stable	  Distribution
+Radix sort	   Ω(NK)	    Θ(NK)	        O(NK)	      O(N+K)	Stable	  Distribution
+Merge sort	   Ω(log(N))	Θ(log(N))	    O(log(N))	  O(N)	  Stable	  Comparison
+Quick sort	   Ω(log(N))	Θ(log(N))	    O(N^2)	    O(log(N))Unstable	Comparison

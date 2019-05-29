@@ -38,6 +38,8 @@ Merge Sort and Quick Sort
 
   -Time Complexity for Merge Sort-
     O(N) * O(log(N)) = O(N log(N))
+  Space complexity: O(N)
+  Stable
 
 -The Quick Sort-
 
@@ -55,6 +57,10 @@ Merge Sort and Quick Sort
 
   We continue partitioning and choosing new pivots as we work through the array
   until we are down to single elements.
+
+  Runtime: O(N^2)
+  Space complexity: O(log(N))
+  Unstable
 
 -Quick Sort vs Merge Sort-
 

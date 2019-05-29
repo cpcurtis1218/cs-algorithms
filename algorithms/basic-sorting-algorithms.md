@@ -23,4 +23,18 @@ Basic Sorting Algorithms
     5) Repeat Steps 1–4 until you can go through the whole list without
         making any swaps.
 
-  **Bubble Sort is stable becuase the cards stay in order as we continue to iterate
+  **Bubble Sort is stable becuase the items stay in order as we continue to iterate
+
+-The Insertion Sort-
+
+  Takes each items and places it into the proper right place in the array.
+  Not super efficient, still ends up traversing the array many times.
+  Often used in conjunction with bucket sort.
+
+  **Insertion Sort is stable becuase the items stay in order as we continue to iterate
+
+-In an Interview-
+
+  Might be asked to descibe or illustrate a bubble sort.
+
+  [Questions](https://hoven-in.appspot.com/Home/Data-Structures/Data-Structure-Interview-Questions/interview-questions-on-bubble-sort-01.html)

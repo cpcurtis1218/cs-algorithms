@@ -12,4 +12,14 @@ Searching Algorithms
 
 -Binary Search-
 
-  
+  Time complexity: O(log(N))
+
+  General Idea:
+    Take the sorted array.
+    First, check the middle element.
+    If not this one, check to the left half or right half, depending
+      on the search value.
+
+  An Added Bonus:
+    We know where the an element should go (if not found) by taking one less
+    than the absolute value of the return value.

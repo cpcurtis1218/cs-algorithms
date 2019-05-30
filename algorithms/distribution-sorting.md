@@ -36,9 +36,13 @@ Distribution Sorting Algorithms
   Most useful when values are relatively dense (not a major differentiation between values)
 
   The General Idea of the Bucket Sort:
+    1) Start with your initial array
+    2) Set up an array of initially empty “buckets.”
+    3) Go over the original array and scatter each object in its bucket.
+    4) Sort each bucket.
+    5) Gather: Go through the buckets sequentially and gather everything back into the original single array.
 
-  1) Start with your initial array
-  2) Set up an array of initially empty “buckets.”
-  3) Go over the original array and scatter each object in its bucket.
-  4) Sort each bucket.
-  5) Gather: Go through the buckets sequentially and gather everything back into the original single array.
+-Radix Sort-
+
+  Radix sort operates by looking at the individual digits in a set of numbers.
+  Radix starts at either the beginning of a number (the most significant digit approach) or the end of a number (the least significant digit approach) and works through each digit until it’s reached the end and the values are sorted.
